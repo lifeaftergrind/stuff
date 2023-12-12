@@ -1,4 +1,3 @@
-<script type='text/javascript'>
 const printButton1 = document.querySelector('.recipe-action-button.print-recipe-1');
 printButton1.addEventListener('click', printRecipeCard);
 
@@ -34,4 +33,4 @@ function printRecipeCard() {
   printWindow.focus();
   printWindow.print();
 }
-</script>
+
